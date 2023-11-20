@@ -24,7 +24,7 @@ const Navbar = ({
   ];
   return (
     <div className="navbar">
-      <h1>Geeks Code Compiler</h1>
+      <h1>Code Compiler</h1>
       <Select
         options={languages}
         value={userLang}

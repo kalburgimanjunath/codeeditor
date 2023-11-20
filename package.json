@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev && node ./server/index.js --turbo ",
+    "dev": "next dev && npm runserver --turbo ",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "runserver": "node ./server/index.js"
   },
   "dependencies": {
     "@monaco-editor/react": "^4.6.0",
