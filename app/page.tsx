@@ -40,7 +40,7 @@ export default function Home() {
     }
 
     // Post request to compile endpoint
-    Axios.post(`https://zzvc7h-8000.csb.app/compile`, {
+    Axios.post(`https://3kyqn5-8000.csb.app/compile`, {
       code: userCode,
       language: userLang,
       input: userInput,

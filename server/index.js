@@ -18,6 +18,7 @@ app.post("/compile", (req, res) => {
   } else if (language === "javascript") {
     language = "javascript";
   }
+  console.log("language" + language);
 
   let data = {
     code: code,
@@ -36,7 +37,7 @@ app.post("/compile", (req, res) => {
   Axios(config)
     .then((response) => {
       res.send(response.data);
-      console.log(response.data);
+      // console.log(response.data);
     })
     .catch((error) => {
       console.log(error);
